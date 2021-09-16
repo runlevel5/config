@@ -9,3 +9,6 @@ eval "$(direnv hook bash)"
 
 . /opt/homebrew/etc/bash_completion.d/rg.bash
 . /opt/homebrew/etc/bash_completion.d/asdf.bash
+
+alias cat='bat --plain'
+alias vi='nvim'
